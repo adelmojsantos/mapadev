@@ -1,0 +1,19 @@
+:root {
+  --red-primary: #D60223;
+  --red-secondary: #f89284;
+  --red-light: #ffbebe;
+
+  --brown-light: #ebd5d2;
+
+  --blue-primary: #0271F7;
+  --blue-secondary: #d3ffff;
+  --blue-light: #8fbff8;
+
+  --purple-light: #c2c2f1;
+
+  --title-light: #faefd8;
+  --title-dark: #f77a2c;
+
+  --primary: #ffffff;
+  --secondary: #000000;
+}

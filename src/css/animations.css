@@ -1,0 +1,42 @@
+/* COMEÇO ANIMAÇÕES */
+@keyframes c-glowing-blue {
+  0% {
+    box-shadow: 0 0 5px var(--blue-light), 0 0 5px var(--blue-light), 0 0 15px var(--blue-light), 0 0 20px var(--blue-primary), 0 0 10px var(--blue-primary), 0 0 10px var(--blue-primary), 0 0 10px var(--blue-primary), 0 0 10px var(--blue-primary)
+  }
+
+  to {
+    box-shadow: 0 0 2.5px var(--blue-light), 0 0 2.5px var(--blue-light), 0 0 7.5px var(--blue-light), 0 0 10px var(--blue-primary), 0 0 5px var(--blue-primary), 0 0 5px var(--blue-primary), 0 0 5px var(--blue-primary), 0 0 2px var(--blue-primary)
+  }
+}
+
+@keyframes c-glowing-red {
+  0% {
+    box-shadow: 0 0 5px var(--brown-light), 0 0 5px var(--brown-light), 0 0 15px var(--brown-light), 0 0 20px var(--red-primary), 0 0 10px var(--red-primary), 0 0 10px var(--red-primary), 0 0 10px var(--red-primary), 0 0 10px var(--red-primary)
+  }
+
+  to {
+    box-shadow: 0 0 2.5px var(--brown-light), 0 0 2.5px var(--brown-light), 0 0 7.5px var(--brown-light), 0 0 10px var(--red-primary), 0 0 5px var(--red-primary), 0 0 5px var(--red-primary), 0 0 5px var(--red-primary), 0 0 2px var(--red-primary)
+  }
+}
+
+@keyframes text-glowing-blue {
+  0% {
+    text-shadow: 0 0 1px var(--primary), 0 0 1px var(--primary), 0 0 1px var(--primary), 0 0 1px var(--blue-secondary), 0 0 5px var(--blue-secondary), 0 0 2px var(--blue-secondary), 0 0 10px var(--blue-secondary), 0 0 10px var(--blue-secondary)
+  }
+
+  to {
+    text-shadow: 0 0 .5px var(--primary), 0 0 .5px var(--primary), 0 0 .5px var(--primary), 0 0 .5px var(--blue-secondary), 0 0 5px var(--blue-secondary), 0 0 .5px var(--blue-secondary), 0 0 5px var(--blue-secondary), 0 0 2px var(--blue-secondary)
+  }
+}
+
+@keyframes text-glowing-red {
+  0% {
+    text-shadow: 0 0 1px var(--brown-light), 0 0 1px var(--brown-light), 0 0 1px var(--brown-light), 0 0 1px var(----red-secondary), 0 0 5px var(----red-secondary), 0 0 2px var(----red-secondary), 0 0 10px var(----red-secondary), 0 0 10px var(----red-secondary)
+  }
+
+  to {
+    text-shadow: 0 0 .5px var(--brown-light), 0 0 .5px var(--brown-light), 0 0 .5px var(--brown-light), 0 0 .5px var(----red-secondary), 0 0 5px var(----red-secondary), 0 0 .5px var(----red-secondary), 0 0 5px var(----red-secondary), 0 0 2px var(----red-secondary)
+  }
+}
+
+/* FIM ANIMAÇÕES */
